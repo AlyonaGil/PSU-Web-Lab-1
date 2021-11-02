@@ -7,6 +7,7 @@
     <link href="styles/footer.css" rel="stylesheet">
     <link href="styles/header.css" rel="stylesheet">
     <link href="styles/menu.css" rel="stylesheet">
+    <link href="styles/_fonts.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,57 +15,53 @@
             <p>Мини-почта</p>
         </div>
         <div id="header_menu">
-            <div id="header_menu1">
-                <div id="active">
-                    <a href="">Письма</a>
-                </div>
-                <div>
-                    <a href="">Написать</a>
-                </div>
-            </div>
-            <div id="header_menu2">
+            <nav id="header_menu1">
+                <nav id="active_a"> <a href="">Письма</a> </nav>
+                <nav> <a href="">Написать</a> </nav>
+            </nav>
+            <nav id="header_menu2">
                 <a href="">@username</a>
                 <a href="">Выход</a>
-            </div>
+            </nav>
         </div>   
     </header>
     <main>
         <div id="menu">
             <h1>Письма</h1>
-            <div><a href="">Непрочитанные</a></div>
-            <div id="active"><a href="">Входящие</a></div>
-            <div><a href="">Отправленные</a></div>
+            <nav><a href="">Непрочитанные</a></nav>
+            <nav id="active"><a href="">Входящие</a></nav>
+            <nav><a href="">Отправленные</a></nav>
         </div>
         <div id="messages">
             <h1>Входящие</h1>
             <div class="card">
                 <div class="container">
-                    <img src="C:\Users\Алёна Гилёва\4 курс\WEB\Верстка\img\Barsik2007.png" alt="">
+                    <img src="img\Barsik2007.png" alt="">
                     <p class="user_name_card">Barsik2007</p>
                 </div>
                 <p class="heading_card">Собрание всех котиков</p>
-                <p class="text_card">Всем привет! Пересылаю распоряжение об организации всеобщего собрания.</p>
+                <article class="text_card">Всем привет! Пересылаю распоряжение об организации всеобщего собрания.</article>
                 <time class="time_card">28.08.2021</time>
             </div>
             <div class="card">
                 <div class="container">
-                    <img src="C:\Users\Алёна Гилёва\4 курс\WEB\Верстка\img\Judith.png" alt="">
+                    <img src="img\Judith.png" alt="">
                     <p class="user_name_card">Judith</p>
                 </div>
                 <p class="heading_card">Красная точка</p>
-                <p class="text_card">Всем мяу! Сегодня утром была найдена красная точка на кухне. 
+                <article class="text_card">Всем мяу! Сегодня утром была найдена красная точка на кухне.
                     Я гналась за ней больше часа, но она сбежала. Продолжаю наблюдение. 
                     В этот раз она не уйдёт. Думаю, надо ещё раз проверить под холодильником. 
-                    Всё, я убежала, тут опять бегает солнечное пятно!</p>
+                    Всё, я убежала, тут опять бегает солнечное пятно!</article>
                 <time class="time_card">28.08.2021</time>
             </div>
             <div class="card">
                 <div class="container">
-                    <img src="C:\Users\Алёна Гилёва\4 курс\WEB\Верстка\img\angry_boss.png" alt="">
+                    <img src="img\angry_boss.png" alt="">
                     <p class="user_name_card">angry_boss</p>
                 </div>
                 <p class="heading_card">Еда?</p>
-                <p class="text_card">Нам надо что-то делать с нехваткой еды! Я голодаю... Я так больше не могу...</p>
+                <article class="text_card">Нам надо что-то делать с нехваткой еды! Я голодаю... Я так больше не могу...</article>
                 <time class="time_card">26.08.2021</time>
             </div>
         </div>    
