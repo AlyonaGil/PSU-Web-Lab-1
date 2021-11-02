@@ -1,0 +1,42 @@
+div#messages{
+    max-width: 924px;
+    flex-grow: 1;
+}
+div.card{
+    background-color: #3D4957;
+    border-radius: 8px;
+    color: #96A1AB;
+    padding: 16px;
+    position: relative;
+    box-sizing: border;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+div.card .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+div.card .container>img{
+    object-fit: contain;
+}
+div.card p{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.card .user_name_card{
+    color: #DBC7A6;
+    font-size: 20px;
+    margin-left: 8px;
+}
+.card .heading_card{
+    font-size: 20px;
+}
+.card .text_card{
+    margin-bottom: 0px;
+}
+.card .time_card{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}

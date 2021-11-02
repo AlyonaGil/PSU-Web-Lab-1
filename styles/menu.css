@@ -1,0 +1,15 @@
+#menu{
+    min-width: 188px;
+    margin-right: 16px;
+}
+#menu div{
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+#menu div#active{
+    background-color: #282E3A;
+    color:  #ECECEC;
+}
+#menu div#active a{
+    color:  #ECECEC;
+}
